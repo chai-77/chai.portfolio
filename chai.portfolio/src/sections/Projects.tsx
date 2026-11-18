@@ -5,7 +5,9 @@ import Reveal from "../components/Reveal";
 
 export default function Projects() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(() =>
+    window.matchMedia("(max-width: 700px)").matches ? 0 : null,
+  );
   const activeProject = projects[activeIndex];
 
   const renderDetails = (index: number) => {
