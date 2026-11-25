@@ -11,7 +11,7 @@ const GIRL_X = 110;       // her x in the viewBox
 const HOP_HEIGHT = 66;    // peak jump height
 const HOP_REACH = 60;     // how far (in units) before/after a bug she is airborne
 const BUG_W = 30;         // 6 px * scale 5
-const MUG_W = 35;         // 7 px * scale 5
+// const MUG_W = 35;         // 7 px * scale 5
 
 // world x positions (left edge) at t = 0
 const BUG_XS = [649, 1289];
