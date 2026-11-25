@@ -29,7 +29,7 @@ export default function Projects() {
 
   return (
     <section id="work" className="section-wrap content-section work-section">
-      <Reveal><h2 className="section-heading">Selected work<span>.</span></h2></Reveal>
+      <Reveal><h2 className="section-heading">Work<span>.</span></h2></Reveal>
       <div className="featured-project" aria-live="polite">
         <article className="featured-project-content" key={activeProject.title}>
           <h3>{activeProject.title}</h3>
