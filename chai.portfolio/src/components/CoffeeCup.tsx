@@ -5,7 +5,7 @@ const CREAM = "#fffaf3";
 const PURPLE = "#9c92ac";
 
 // ---- tuning ----
-const SPEED = 800;        // world units per second
+const SPEED = 300;        // world units per second
 const LOOP = 1600;        // world length before it repeats
 const GIRL_X = 110;       // her x in the viewBox
 const HOP_HEIGHT = 66;    // peak jump height
